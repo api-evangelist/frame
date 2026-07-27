@@ -1,7 +1,22 @@
 aid: frame
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frame.png
 name: Frame
-description: Frame is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Frame Technology Corp. was a software company that developed FrameMaker, a structured
+  desktop-publishing and technical-documentation authoring application widely used for long, complex
+  documents. Founded in the 1980s and taken public, Frame Technology was acquired by Adobe Systems in
+  1995; FrameMaker continues today as an Adobe product. This is a historical/acquired portfolio company
+  of Canaan Partners with no independent developer or API surface of its own.
 url: https://raw.githubusercontent.com/api-evangelist/frame/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,31 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Adobe Systems
+x-acquired-year: 1995
+x-is-api-provider: false
+x-enrichment-note: Defunct/acquired (Adobe, 1995) historical desktop-publishing company; no live domain,
+  API, or developer surface exists. No artifacts fabricated per pipeline no-fabrication rule.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Software
+- Desktop Publishing
+- Technical Documentation
+- Publishing
+- Historical
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
