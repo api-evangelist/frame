@@ -30,7 +30,7 @@ x-acquired-year: 1995
 x-is-api-provider: false
 x-enrichment-note: Defunct/acquired (Adobe, 1995) historical desktop-publishing company; no live domain,
   API, or developer surface exists. No artifacts fabricated per pipeline no-fabrication rule.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
